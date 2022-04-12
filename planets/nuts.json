@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "NUTS",
+	"Base" :
+	{
+		"surfaceGravity" : 100,
+		"surfaceSize" : 1999,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis": 150000,
+        "primaryBody": "Sun",
+        "trueAnomaly": 142
+	},
+	"Atmosphere" :
+	{
+		"size" : 2200,
+		"fogTint" : 
+		{
+			"r" : 222,
+			"g" : 184,
+			"b" : 135,
+			"a" : 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 2200
+	},
+	"Star" :
+	{
+		"size" : 2000,
+		"tint" : 
+		{
+			"r" : 222,
+			"g" : 184,
+			"b" : 135,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 222,
+			"g" : 184,
+			"b" : 135,
+			"a" : 255
+		},
+		"solarLuminosity" : 0.8
+	}
+
+}

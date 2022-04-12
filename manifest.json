@@ -3,7 +3,7 @@
   "author": "MellowSus",
   "name": "Almond System",
   "uniqueName": "MellowSus.almondsystem",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "owmlVersion": "2.1.0",
   "dependencies": [
     "xen.NewHorizons"
